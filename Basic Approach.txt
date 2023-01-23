@@ -1,4 +1,4 @@
-. These codes can be used to optimize the signal for the environment by using machine learning to find the best parameters for encoding and decoding the signal. To combine these 8 codes towards our code for handling the additional dimensions of the signal, you can use the following steps:
+This code seeks to find the best parameters for encoding and decoding the signal. To combine these 8 codes towards our code for handling the additional dimensions of the signal, you can use the following steps:
 
 First, use the code from CODE 1 to reduce the dimensions of the signal using techniques like t-SNE or PCA.
 
