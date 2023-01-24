@@ -1,4 +1,4 @@
-#Our code is beoming quite complex.  So we will be better integrating these functions together as well as trimming redundancy for CombinedStepsF.py, later on.
+#Our code is becoming quite complex.  So we will be better integrating these functions together as well as trimming redundancy for CombinedStepsF.py, later on.
 
 import math
 import cmath
