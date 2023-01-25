@@ -1,0 +1,7 @@
+This Proof of Non-Tamperability (PoNT) algorithm elminates the ballooning ledger problem and improves anonymity by using a tamper-evident seal to verify the integrity of the transaction data. The seal is calculated by hashing the transaction data. The transaction data is encrypted using a shared key. The shared key is encrypted using the public keys of the receiving nodes. The encrypted transaction data and encrypted shared key are broadcasted to the receiving nodes. The receiving nodes decrypt the shared key using their private keys. The receiving nodes then decrypt the transaction data using the shared key. The receiving nodes verify the tamper-evident seal on the transaction data using the public key of the sender. The receiving nodes then add the transaction to their local blockchain.  The algorithm is intended for export via the radio.py module, enabling P2P radio ISP.
+
+This code combines the PoNT.py code with the radio.py code to create a radio communication system that uses the PoNT algorithm to encode and decode the data in order to create a distributed ISP that is resistant to interference and can be used to communicate with other radio stations in the area.
+
+The Filter.h modulates our inverter-as-amp to make the magic happen between a node and radio
+
+For this version I've ditched some of the higher level logic, for now, in hopes of getting a product going soon.  We can always make an improved V2.0 which restores some of the principles, and for now V0.2 is coming together nicely.
