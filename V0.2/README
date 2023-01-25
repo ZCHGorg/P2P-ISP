@@ -5,3 +5,5 @@ This code combines the PoNT.py code with the radio.py code to create a radio com
 The Filter.h modulates our inverter-as-amp to make the magic happen between a node and radio
 
 For this version I've ditched some of the higher level logic, for now, in hopes of getting a product going soon.  We can always make an improved V2.0 which restores some of the principles, and for now V0.2 is coming together nicely.
+
+Add / trim, add / trim, add / time - We have trimmed some concepts which I will restore soon, and we have trimmed some concepts for good, and we have added some concepts which I will later refine by trimming.  Rinse and repeat.  This is a rough draft, of course it's not complete.
