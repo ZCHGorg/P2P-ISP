@@ -47,3 +47,5 @@ void fourier_transform(complex double* input, complex double* output, int size) 
         output[i] = sum;
     }
 }
+
+// Copyright 2023 Josef Kulovany zchg.org DO NOT REMOVE PER LICENSING AND COPYRIGHT LAW
